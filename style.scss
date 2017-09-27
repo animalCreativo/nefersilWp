@@ -2,8 +2,8 @@ $body-background: white;
 $body-background404: #15210a;
 $h3-404: white;
 $p-404: white;
-$header-background: #009BED;
-$footer-background: #003E73;
+$header-background: #0C165D;
+$footer-background: #3893FF;
 $footer-color: white;
 $card-background: transparent;
 $card-textcolor: #767E8B;
@@ -15,13 +15,15 @@ $card-paddingbottom: 10px;
 $card-paddingleft: 20px;
 $btn-textcolor: #2691FB;
 $btn-bordercolor: #2691FB;
-$card2-background: #F7F7F7;
+$card2-background: #0C165D;
 $card2-background2: #009BED;
-$card2-textcolor: #003E73;
-$card2-titulocolor: #003E73;
+$card2-textcolor: white;
+$card2-titulocolor: white;
 $btn2-textcolor: white;
 $btn2-bordercolor: #2691FB;
+
 $header-textcolor: white;
+$special-textcolor: #0C165D;
 
 $toplogopadding-left: 20px;
 $toplogopadding-top: 20px;
@@ -222,7 +224,7 @@ button.hollow.button {
 .header-container {
   background: $header-background;
 }
-.card2-section p {
+.card2-section p , .card2-section li{
   color: $card2-textcolor;
 }
  .card2-section h3 {
@@ -237,7 +239,7 @@ button.hollow.button {
 }
 
 .textSpecial {
-  color: $card2-titulocolor;
+  color: $special-textcolor;
   text-transform: uppercase;
   font-weight: bolder;  
   padding-bottom: 20px;

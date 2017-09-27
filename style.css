@@ -2,7 +2,7 @@ body {
   background: white; }
 
 header {
-  background: #009BED;
+  background: #0C165D;
   height: 120px;
   width: auto;
   padding-top: 20px; }
@@ -19,14 +19,14 @@ li#rata {
 
 div#example-menu {
   height: 100%;
-  background: #009BED; }
+  background: #0C165D; }
 
 div#example-menu {
   padding: 0px;
   position-top: -16px; }
 
 .top-bar, .top-bar ul {
-  background: #009BED; }
+  background: #0C165D; }
 
 .top-bar .menu > li:not(.menu-text) > a {
   padding: 1rem;
@@ -54,7 +54,7 @@ div#example-menu {
 
 #article1 {
   max-width: 100%;
-  background: #F7F7F7; }
+  background: #0C165D; }
 
 #article2 {
   max-width: 100%;
@@ -71,11 +71,11 @@ div#example-menu {
   background: transparent; }
 
 .footer, .footer-container {
-  background: #003E73;
+  background: #3893FF;
   padding: 10px; }
 
 .row.footer-container {
-  background: #003E73; }
+  background: #3893FF; }
 
 .footerSocial {
   padding-top: 20px; }
@@ -153,22 +153,22 @@ button.hollow.button {
   background: transparent; }
 
 .header-container {
-  background: #009BED; }
+  background: #0C165D; }
 
-.card2-section p {
-  color: #003E73; }
+.card2-section p, .card2-section li {
+  color: white; }
 
 .card2-section h3 {
   color: #0076E8;
   font-weight: bolder; }
 
 .card2-section h5 {
-  color: #003E73;
+  color: white;
   text-transform: uppercase;
   font-weight: bolder; }
 
 .textSpecial {
-  color: #003E73;
+  color: #0C165D;
   text-transform: uppercase;
   font-weight: bolder;
   padding-bottom: 20px; }
