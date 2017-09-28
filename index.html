@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="css/foundation-flex.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="icons/foundation-icons.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600i,700,800i" rel="stylesheet">
 </head>
 <body>
      <div data-sticky-container>
@@ -50,15 +50,15 @@
           <div class="columns small-12 medium-9 show-for-medium">
             <ul class="menu" data-magellan id="menuListHeader">
               <li><a href="#first" >Beneficios</a></li>
-              <li><a href="#second">Composición</a></li>
-              <li><a href="#third" >Dónde encontrarnos</a></li>
+              <li><a href="#second">Modo de uso</a></li>
+              <li><a href="#third" >Puntos de Venta</a></li>
             </ul>
           </div>
           <div class="columns small-12 medium-9 show-for-small-only" >
             <ul class="menu" data-magellan id="menuListHeader">
               <li><a href="#first" style="text-align: left;">Beneficios</a></li>
-              <li><a href="#second" style="text-align: left;">Composición</a></li>
-              <li><a href="#third" style="text-align: left;">Dónde<br>encontrarnos</a></li>
+              <li><a href="#second" style="text-align: left;">Modo de </a>uso</a></li>
+              <li><a href="#third" style="text-align: left;">Puntos de<br>Venta</a></li>
             </ul>
           </div>
         </div>
@@ -106,91 +106,89 @@
         </nav> -->
     </div>
 
-    <article id="article1" >     
+    <div class="sections">
+    <section id="first" data-magellan-target="first">
+      <article id="article1"  >     
         <div class = "row container" id="card2Div"  style="min-height: 500px;" >       
-            <div class="small-12 medium-6 columns card2 align-self-middle">
+            <div class="small-12 medium-6 columns card2 align-self-middle" >
                <picture>
                     <img width="auto" height="auto" src="assets/producto.png"/>    
                 </picture>
             </div>
-            <div class="small-12 medium-6 columns card2-section align-self-middle text-center">
-              <h5 style="text-transform: uppercase;">El dolor ya no es excusa para no hacer deporte</h5>
-            <ul style="text-transform: uppercase;">
-              <li>Elimina el dolor </li>
-              <li>Acción Inmendiata </li>
-              <li>Fácil de Aplicar</li>
-              <li>No Mancha </li>
-            </ul>
+            <div class="small-12 medium-6 columns card2 align-self-middle" >
+               <picture>
+                    <img width="auto" height="auto" src="assets/texto.png"/>    
+                </picture>
             </div>
+           
         </div>
     </article> 
-
-  
-
-  <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit >
-        <div class="orbit-wrapper">
-            <div class="orbit-controls">
-             <!--  <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-              <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button> -->
+    </section>
+    <section id="second" data-magellan-target="second">
+      <div class="orbit" role="region" aria-label="Favorite Space Pictures"  >
+            <div class="orbit-wrapper">
+                <div class="orbit-controls">
+                 <!--  <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                  <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button> -->
+                </div>
+                <ul class="orbit-container" id="rata" style="height: 100%;">
+                    <li class="is-active orbit-slide" id="rata" >
+                      <picture class="orbit-figure " id="orbit-figure">
+                        <source srcset="assets/slider2.jpg" media"(min-width: 800px)">
+                        <img class="imgOrbit" src="assets/slider2.jpg" alt="" >
+                      </picture>
+                    </li>
+             <!--                      <li class="is-active orbit-slide" id="rata" >
+                      <picture class="orbit-figure " id="orbit-figure">
+                        <source srcset="assets/slider2.jpg" media"(min-width: 800px)">
+                        <img class="imgOrbit" src="assets/slider2.jpg" alt="" >
+                      </picture>
+                    </li>
+                                  <li class="is-active orbit-slide" id="rata" >
+                      <picture class="orbit-figure " id="orbit-figure">
+                        <source srcset="assets/slider3.jpg" media"(min-width: 800px)">
+                        <img class="imgOrbit" src="assets/slider3.jpg" alt="" >
+                      </picture>
+                    </li>
+                                  <li class="is-active orbit-slide" id="rata" >
+                      <picture class="orbit-figure " id="orbit-figure">
+                        <source srcset="assets/slider4.jpg" media"(min-width: 800px)">
+                        <img class="imgOrbit" src="assets/slider4.jpg" alt="" >
+                      </picture>
+                    </li> -->
+                </ul>
             </div>
-            <ul class="orbit-container" id="rata" style="height: 100%;">
-                <li class="is-active orbit-slide" id="rata" >
-                  <picture class="orbit-figure " id="orbit-figure">
-                    <source srcset="assets/slider2.jpg" media"(min-width: 800px)">
-                    <img class="imgOrbit" src="assets/slider2.jpg" alt="" >
-                  </picture>
-                </li>
-         <!--                      <li class="is-active orbit-slide" id="rata" >
-                  <picture class="orbit-figure " id="orbit-figure">
-                    <source srcset="assets/slider2.jpg" media"(min-width: 800px)">
-                    <img class="imgOrbit" src="assets/slider2.jpg" alt="" >
-                  </picture>
-                </li>
-                              <li class="is-active orbit-slide" id="rata" >
-                  <picture class="orbit-figure " id="orbit-figure">
-                    <source srcset="assets/slider3.jpg" media"(min-width: 800px)">
-                    <img class="imgOrbit" src="assets/slider3.jpg" alt="" >
-                  </picture>
-                </li>
-                              <li class="is-active orbit-slide" id="rata" >
-                  <picture class="orbit-figure " id="orbit-figure">
-                    <source srcset="assets/slider4.jpg" media"(min-width: 800px)">
-                    <img class="imgOrbit" src="assets/slider4.jpg" alt="" >
-                  </picture>
-                </li> -->
-            </ul>
+          <!--   <nav class="orbit-bullets">
+                <button class="is-active" data-slide= ><span class="show-for-sr"> orbit1 </span></button>
+                <button data-slide= ><span class="show-for-sr"> orbit2 </span></button>
+                <button data-slide= ><span class="show-for-sr"> orbit3 </span></button>
+                <button data-slide= ><span class="show-for-sr"> orbit4 </span></button>
+            </nav> -->
         </div>
-      <!--   <nav class="orbit-bullets">
-            <button class="is-active" data-slide= ><span class="show-for-sr"> orbit1 </span></button>
-            <button data-slide= ><span class="show-for-sr"> orbit2 </span></button>
-            <button data-slide= ><span class="show-for-sr"> orbit3 </span></button>
-            <button data-slide= ><span class="show-for-sr"> orbit4 </span></button>
-        </nav> -->
-    </div>
-
-
-    <div class="row text-center" id="third" data-magellan-target="third" style="height-min: 420px;"> 
-      <div class="columns small-12 align-self-middle " >
-      <br>
-      <h5 class="textSpecial">ENCUENTRANOS <br> EN LAS PRINCIPALES FARMACIAS DEL PAÍS</h5>
-        <div class="row medium-up-3 " >
-          <div class="small-12 medium-4 columns align-self-middle" id="imagesBrand">
-             <img  width="auto" height="auto" src="assets/cruzVerde.jpg"  />  
+    </section>
+    <section id="third" data-magellan-target="third">
+       <div class="row text-center" style="min-height: 420px;"> 
+            <div class="columns small-12 align-self-middle " >
+            <br>
+            <h5 class="textSpecial">ENCUENTRANOS <br> EN LAS PRINCIPALES FARMACIAS DEL PAÍS</h5>
+              <div class="row medium-up-3 " >
+                <div class="small-12 medium-4 columns align-self-middle" id="imagesBrand">
+                   <img  width="auto" height="auto" src="assets/cruzVerde.jpg"  />  
+                </div>
+                <div class="small-12 medium-4 columns align-self-middle" id="imagesBrand" >
+                   <img  width="auto" height="auto" src="assets/ahumada.jpg"  />  
+                </div>
+                <div class="small-12 medium-4 columns align-self-middle" id="imagesBrand">
+                   <img  width="auto" height="auto" src="assets/salco.png"  />  
+                </div>
+              </div> 
+            </div>   
           </div>
-          <div class="small-12 medium-4 columns align-self-middle" id="imagesBrand" >
-             <img  width="auto" height="auto" src="assets/ahumada.jpg"  />  
-          </div>
-          <div class="small-12 medium-4 columns align-self-middle" id="imagesBrand">
-             <img  width="auto" height="auto" src="assets/salco.png"  />  
-          </div>
-        </div> 
-      </div>   
-    </div>
-
-    
+    </section>
+  </div>
 
 
-
+   
     <div class="footer-container show-for-medium">
         <footer class="footer row align-justify">
             <div class="small-3 column hide-for-small-only">
@@ -198,9 +196,12 @@
                     <img src="assets/neferLogo.png" class="attachment-full size-full wp-post-image" alt="">          
                 </div>
                 <div class="row footerSocial">
-                    <div class="small-12 medium-4 columns">
-                        <a href="https://www.facebook.com/ElChiringuitoTV/?hc_ref=ARSSzPI6GLmiEwBHE7mLtdIp7LoUkVnduy8ssHOQ1VebuQPkaivcsfzuyPhrfzAgves&amp;fref=nf"> 
-                            <img src="assets/facebookLogo.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com"></a>
+                    <div class="small-12 medium-4 columns align-self-middle"">
+                        <a href="https://www.facebook.com/NefersilGelCL"> 
+                            <img src="assets/facebookLogo.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com" style="padding-bottom: 20px;"></a>
+                    </div>
+                    <div class="small-12 medium-8 columns align-self-middle text-align-center">
+                        <p>Siguenos en Facebook</p>
                     </div>
                 </div>
             </div>
@@ -212,10 +213,10 @@
                                 <a href="#first">Beneficios</a>
                             </li>
                             <li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98">
-                                <a href="#second">Composición</a>
+                                <a href="#second">Modo de uso</a>
                             </li>
                             <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-                                <a href="#third">Dónde encontrarnos</a>
+                                <a href="#third">Puntos de Venta</a>
                             </li>
                         </ul>
                     </nav>
@@ -248,9 +249,9 @@
                 <ul id="menu-footer-1" class="menu footermenu vertical menu" data-magellan>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a href="#first">Beneficios</a>
                     </li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="#second">Composición</a>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a href="#second">Modo de uso</a>
                     </li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="#third">Dónde encontrarnos</a>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="#third">Puntos de Venta</a>
                     </li>
                 </ul> 
             </div>
@@ -266,7 +267,7 @@
                     <div class="small-6  columns">
                         <div class="row">
                             <div class="small-12  columns" id="imgFacebookMobile">
-                            <a href="https://www.facebook.com/ElChiringuitoTV/?hc_ref=ARSSzPI6GLmiEwBHE7mLtdIp7LoUkVnduy8ssHOQ1VebuQPkaivcsfzuyPhrfzAgves&amp;fref=nf"> 
+                            <a href="https://www.facebook.com/NefersilGelCL"> 
                                 <img src="assets/facebookLogo.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com">   
                              </a>
                         </div>

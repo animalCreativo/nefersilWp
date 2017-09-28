@@ -1,5 +1,6 @@
 body {
-  background: white; }
+  background: white;
+  font-family: 'Open Sans', sans-serif; }
 
 header {
   background: #0C165D;
@@ -156,22 +157,30 @@ button.hollow.button {
   background: #0C165D; }
 
 .card2-section p, .card2-section li {
-  color: white; }
+  color: white;
+  font-family: OpenSans;
+  font-weight: 600i;
+  font-size: 18px; }
 
 .card2-section h3 {
   color: #0076E8;
-  font-weight: bolder; }
+  font-family: OpenSans;
+  font-weight: 600i;
+  font-size: 18px; }
 
 .card2-section h5 {
   color: white;
   text-transform: uppercase;
-  font-weight: bolder; }
+  font-family: OpenSans;
+  font-weight: 800;
+  font-size: 24px; }
 
 .textSpecial {
   color: #0C165D;
-  text-transform: uppercase;
-  font-weight: bolder;
-  padding-bottom: 20px; }
+  font-family: OpenSans;
+  font-weight: 800;
+  font-size: 32px;
+  padding-bottom: 32px; }
 
 #imagesBrand {
   padding: 20px; }
@@ -183,6 +192,11 @@ button.hollow.button.button2 {
 #menuListHeader {
   text-align: right;
   margin-top: 20px; }
+
+#menuListHeader a {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 14px; }
 
 ul.menu.headermenu {
   margin-top: 15px; }
