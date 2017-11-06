@@ -31,7 +31,9 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-    <title>Nefersil</title>
+    <meta name="description" content="PGel tópico hipoalergénico, de acción Analgésica sostenida con rápida absorción">
+    <meta name="keywords" content="Antiinflamatorio, lontoforesis, tratamiento de esguinces">
+    <title>Nefersil Gel, tópico que Alivia el Dolor y la inflamación.</title>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/css/foundation-flex.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/style.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/icons/foundation-icons.css">
@@ -64,7 +66,7 @@
                   <li><a class= "clickMenu" href="#third" >Puntos de Venta</a></li>
               </ul>
               <ul class=" dropdown menu" data-magellan data-dropdown-menu id="menuListHeader">
-                 <li><a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a></li>
+                 <li><a href="mailto:cbarker@pharmainvesti.cl">Contacto</a></li>
               </ul>
             </div>
           </div>
@@ -84,7 +86,7 @@
                 <li><a href="#first" >Beneficios</a></li>
                 <li><a href="#second">Modo de uso</a></li>
                 <li><a href="#third" >Puntos de Venta</a></li>
-                <li><a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a></li>
+                <li><a href="mailto:cbarker@pharmainvesti.cl">Contacto</a></li>
             </ul>
           </div>
         </div>
@@ -115,46 +117,7 @@
     </article> 
     </section>
     <section id="second" data-magellan-target="second">
-      <div class="orbit" role="region" aria-label="Favorite Space Pictures"  >
-            <div class="orbit-wrapper">
-                <div class="orbit-controls">
-                 <!--  <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-                  <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button> -->
-                </div>
-                <ul class="orbit-container" id="rata" style="height: 100%;">
-                    <li class="is-active orbit-slide" id="rata" >
-                      <picture class="orbit-figure " id="orbit-figure">
-                        <source srcset="<?php bloginfo('stylesheet_directory')?>/assets/slider2.jpg" media"(min-width: 800px)">
-                        <img class="imgOrbit" src="<?php bloginfo('stylesheet_directory')?>/assets/slider2.jpg" alt="" >
-                      </picture>
-                    </li>
-             <!--                      <li class="is-active orbit-slide" id="rata" >
-                      <picture class="orbit-figure " id="orbit-figure">
-                        <source srcset="assets/slider2.jpg" media"(min-width: 800px)">
-                        <img class="imgOrbit" src="assets/slider2.jpg" alt="" >
-                      </picture>
-                    </li>
-                                  <li class="is-active orbit-slide" id="rata" >
-                      <picture class="orbit-figure " id="orbit-figure">
-                        <source srcset="assets/slider3.jpg" media"(min-width: 800px)">
-                        <img class="imgOrbit" src="assets/slider3.jpg" alt="" >
-                      </picture>
-                    </li>
-                                  <li class="is-active orbit-slide" id="rata" >
-                      <picture class="orbit-figure " id="orbit-figure">
-                        <source srcset="assets/slider4.jpg" media"(min-width: 800px)">
-                        <img class="imgOrbit" src="assets/slider4.jpg" alt="" >
-                      </picture>
-                    </li> -->
-                </ul>
-            </div>
-          <!--   <nav class="orbit-bullets">
-                <button class="is-active" data-slide= ><span class="show-for-sr"> orbit1 </span></button>
-                <button data-slide= ><span class="show-for-sr"> orbit2 </span></button>
-                <button data-slide= ><span class="show-for-sr"> orbit3 </span></button>
-                <button data-slide= ><span class="show-for-sr"> orbit4 </span></button>
-            </nav> -->
-        </div>
+       <img class="imgOrbit" style="width: 100%; height:auto;" data-interchange="[<?php bloginfo('stylesheet_directory')?>/assets/slider2Mobile@2x.jpg, small], [<?php bloginfo('stylesheet_directory')?>/assets/slider2Tablet.jpg, medium], [<?php bloginfo('stylesheet_directory')?>/assets/slider2Desktop.jpg, large], [<?php bloginfo('stylesheet_directory')?>/assets/slider2DesktopHD.jpg, xlarge]"> 
     </section>
     <section id="third" data-magellan-target="third">
        <div class="row text-center" style="min-height: 420px;"> 
@@ -209,7 +172,7 @@
                                 <a href="#third">Puntos de Venta</a>
                             </li>
                             <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-                                <a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a>
+                                <a href="mailto:cbarker@pharmainvesti.cl">Contacto</a>
                             </li>
                         </ul>
                     </nav>
@@ -247,7 +210,7 @@
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="#third">Puntos de Venta</a>
                     </li>
                     <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97">
-                        <a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a>
+                        <a href="mailto:cbarker@pharmainvesti.cl">Contacto</a>
                     </li>
                 </ul> 
             </div>
